@@ -126,9 +126,9 @@ header{
     width: 90%;
     justify-content: center;
     flex-wrap: wrap;
-     align-items: center;
-     align-content: center;
-    margin-left: 70px;
+    align-items: center;
+    align-content: center;
+    /* margin-left: 70px; */
     gap:2rem;
     margin-top: 2rem;
 
@@ -137,15 +137,15 @@ header{
 .card{
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    padding: 2rem;
     margin: 20px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     border-radius: 10px;
     width: 250px;
-    overflow: hidden;
-    flex-shrink: 1;
+    /* overflow: hidden; */
+    /* flex-shrink: 1;
     flex-grow: 1;
-    flex-basis: 250px;
+    flex-basis: 250px; */
     text-align: center;
     animation: pulse 1.2s ease-in-out infinite;
 }
@@ -172,12 +172,12 @@ header{
     
 }
 
-@media(max-width:768px){
+@media(max-width:600px){
 
     .nav-items{
      display: none;
      flex-direction: column;
-     background: #ffffff;
+     /* background: #ffffff; */
      position: absolute;
      top: 60px;
      right: 2rem;
@@ -211,7 +211,7 @@ header{
         
     }
 
-    /* @keyframes pulse {
+     @keyframes pulse {
         0%{
             transform: scale(1);
             opacity: 1;
@@ -225,5 +225,5 @@ header{
             opacity: 1;
         }
         
-    } */
+    }
 
