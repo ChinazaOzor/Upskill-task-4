@@ -8,6 +8,14 @@
     --link:#145a32;
 }
 
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-bo
+}
+
 header{
     display: flex;
     background-color: var(--primary);
@@ -90,6 +98,7 @@ header{
     cursor: pointer;
     font-size: 10px;
     border: none;
+    margin: 10px;
     transition: background-color 0.3s ease;
 }
 
