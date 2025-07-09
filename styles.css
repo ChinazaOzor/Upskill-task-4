@@ -68,7 +68,7 @@ header{
     /* justify-content: center; */
     /* align-items: center; */
     text-align: center;
-    /* color: white; */
+    color: white; 
     animation:fadeIn 2s ease;
     padding: 4rem 2rem;
 }
