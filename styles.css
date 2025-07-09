@@ -128,7 +128,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    /* margin-left: 70px; */
+    margin-left: 70px;
     gap:2rem;
     margin-top: 2rem;
 
