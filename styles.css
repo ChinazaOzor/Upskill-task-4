@@ -173,7 +173,7 @@ header{
     
 }
 
-@media(max-width:768px){
+@media(max-width:800px){
 
     .nav-items{
      display: none;
@@ -183,6 +183,7 @@ header{
      top: 60px;
      right: 2rem;
      width: 200px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
     
    .nav-items.active{
@@ -192,10 +193,7 @@ header{
    .hamburger{
     display: block;
    }
-   .card{
-      justify-content: center;
 
-   }
 }
     /* .footer-item{
         flex-direction: column;
